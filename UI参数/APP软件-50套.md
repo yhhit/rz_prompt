@@ -87,26 +87,36 @@
 - 图标风格
 - 动效节奏
 
+## 低/中低分辨率差异化规则
+
+APP 类必须覆盖不同手机和小平板画布，不能全部使用高分长屏或高端平板分辨率。
+
+- 每套真实参数必须包含 `Target Viewport / UI Scale`。
+- 优先使用低/中低移动分辨率：`360×640`、`375×667`、`390×780`、`393×852`、`412×732`、`430×932`、`768×1024`、`800×600`。
+- 禁止把所有 APP 都做成高分旗舰长屏；平板分辨率只能少量出现。
+- 每 10 套至少出现 6 种不同分辨率；相邻参数宽或高至少一项明显不同。
+- 分辨率降低时同步放大控件和字号，避免密集小字。
+
 
 ## 少量套数强差异化规则
 
 当某个大类下只有 6–10 套真实参数时，不能只做同一骨架的配色变化；每套都必须像不同软件。生成时优先遵守以下硬约束：
 
-- 每套必须有不同的 `Target Viewport / UI Scale`：例如手机 390×844、平板 1366×1024、桌面 1440×900、工作站 1920×1080、HMI 1024×768、双屏/超宽 2560×1440。
-- 每套必须有明确的 `First-glance Signature`：用户第一眼能看到的差异，例如大标题手机卡片、硬边框工控按钮、深色终端、Ribbon 工具栏、三维视口、图表矩阵、浮动小窗。
+- 每套必须有不同的 `Target Viewport / UI Scale`，并优先使用本文件“低/中低分辨率差异化规则”中的分辨率池；不得默认高分工作站、大屏或超宽画布。
+- 每套必须有明确的 `First-glance Signature`：用户第一眼能看到的差异，例如低分手机卡片、低分桌面三栏、紧凑图表网格、小窗口工具面板、低分画布工作区、短表格阅读页、浮动小窗。
 - 每套必须拉开 `Component Scale`：有的整体控件很小很密，有的按钮和列表很大，有的中等办公密度，有的触控大字号。
-- 每套必须拉开背景与容器语言：纯白/浅灰/米色/深蓝/黑灰/玻璃/硬边框/网格底/终端底，不允许连续多套都是白底卡片。
+- 每套必须拉开背景与容器语言：纯白/浅灰/米色/暖灰/浅绿灰/浅玻璃/硬边框/网格底/纸张底，不允许连续多套都是白底卡片。
 - 每套至少在 `目标分辨率、整体缩放、背景颜色、容器形态、导航骨架、控件密度、字体尺度、边框/阴影` 中变化 5 项以上。
 - 如果两套同属浅色风，必须一个偏冷灰硬边框，一个偏暖色大留白，或者一个高密度表格，一个大控件卡片，不能只换主色。
 
 ## 推荐配色池
 
-- bg `#FFFFFF`, surface `#F8FAFC`, text `#0F172A`, primary `#2563EB`, accent `#10B981`, border `#E2E8F0`
-- bg `#F8FAFC`, surface `#FFFFFF`, text `#0F172A`, primary `#16A34A`, accent `#0EA5E9`, border `#E2E8F0`
+- bg `#FFFFFF`, surface `#F8FAFC`, text `#0F172A`, primary `#0F766E`, accent `#10B981`, border `#E2E8F0`
+- bg `#F8FAFC`, surface `#FFFFFF`, text `#0F172A`, primary `#16A34A`, accent `#0F766E`, border `#E2E8F0`
 - bg `#FFFFFF`, surface `#F8FAFC`, text `#0F172A`, primary `#0F766E`, accent `#F59E0B`, border `#E2E8F0`
-- bg `#F6F7FB`, surface `rgba(255,255,255,.70)`, text `#0F172A`, primary `#2563EB`, accent `#06B6D4`, border `rgba(15,23,42,.08)`
+- bg `#F6F7FB`, surface `rgba(255,255,255,.70)`, text `#0F172A`, primary `#0F766E`, accent `#14B8A6`, border `rgba(15,23,42,.08)`
 - bg `#FAF8F3`, surface `#FFFFFF`, text `#1C1917`, primary `#166534`, accent `#B45309`, border `#E7E5E4`
-- bg `#FFFFFF`, surface `#F1F5F9`, text `#0F172A`, primary `#7C3AED`, accent `#2563EB`, border `#E2E8F0`
+- bg `#FFFFFF`, surface `#F1F5F9`, text `#0F172A`, primary `#7C3AED`, accent `#0F766E`, border `#E2E8F0`
 
 ## 数量建议
 
@@ -130,8 +140,8 @@
 ## UI参数区
 
 ### APP软件 UI参数 001：iOS 当前时代清爽卡片风
+- Target Viewport / UI Scale: `Phone low 360×640 @120%; large mobile scale; 44–56h controls`
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“iOS large-title + white rounded summary cards + bottom TabBar, very clean and airy”，不是只换颜色`
-- Target Viewport / UI Scale: `Phone 390×844 @1x; large mobile scale; 48–56h touch controls; generous safe-area spacing`
 - First-glance Signature: `iOS large-title + white rounded summary cards + bottom TabBar, very clean and airy`
 - Background & Surface Language: `cool off-white mobile background with floating cards`
 - Component Scale: `large mobile scale; 48–56h touch controls; generous safe-area spacing`
@@ -160,8 +170,8 @@
 ---参数分隔符---
 
 ### APP软件 UI参数 002：Android Material 稳定组件风
+- Target Viewport / UI Scale: `Phone compact 375×667 @115%; list scale; 42–52h controls`
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“Android Material top app bar + tonal containers + chips + bottom navigation”，不是只换颜色`
-- Target Viewport / UI Scale: `Phone 412×915 @1x; medium mobile scale; 44–48h Material controls; compact vertical feed`
 - First-glance Signature: `Android Material top app bar + tonal containers + chips + bottom navigation`
 - Background & Surface Language: `warm beige Material surface, tonal cards`
 - Component Scale: `medium mobile scale; 44–48h Material controls; compact vertical feed`
@@ -190,10 +200,10 @@
 ---参数分隔符---
 
 ### APP软件 UI参数 003：移动端深色专业应用风
-- Visual Differentiation: `与同类其他套相比，第一眼必须呈现“black/navy mobile dark mode + glowing status chips + bottom action bar”，不是只换颜色`
-- Target Viewport / UI Scale: `Phone 390×844 dark mode; large mobile scale; 46–52h controls; dark compact cards`
-- First-glance Signature: `black/navy mobile dark mode + glowing status chips + bottom action bar`
-- Background & Surface Language: `deep navy background with elevated dark cards`
+- Target Viewport / UI Scale: `Phone 390×780 @110%; card scale; 44–56h controls`
+- Visual Differentiation: `与同类其他套相比，第一眼必须呈现“black/dark-teal mobile dark mode + glowing status chips + bottom action bar”，不是只换颜色`
+- First-glance Signature: `black/dark-teal mobile dark mode + glowing status chips + bottom action bar`
+- Background & Surface Language: `deep dark-teal background with elevated dark cards`
 - Component Scale: `large mobile scale; 46–52h controls; dark compact cards`
 - Subtype: `现代移动APP / 深色模式 / 专业工具型移动界面`
 - Rendering Paradigm: `Mobile native app`
@@ -222,8 +232,8 @@
 ---参数分隔符---
 
 ### APP软件 UI参数 004：Android Material 容器风
+- Target Viewport / UI Scale: `Phone 393×852 @110%; modern mobile scale; 44–56h controls`
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“single-column Material cards + prominent FAB + rounded bottom sheet”，不是只换颜色`
-- Target Viewport / UI Scale: `Phone 360×800 @1x; very large touch scale; oversized 52–60h controls; low density`
 - First-glance Signature: `single-column Material cards + prominent FAB + rounded bottom sheet`
 - Background & Surface Language: `pale lavender/white tonal container background`
 - Component Scale: `very large touch scale; oversized 52–60h controls; low density`
@@ -255,8 +265,8 @@
 ---参数分隔符---
 
 ### APP软件 UI参数 005：iOS 分组列表风
+- Target Viewport / UI Scale: `Small tablet 768×1024 @105%; two-pane light scale; 40–52h controls`
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“iOS Settings-like grouped list + search field + sheet overlay”，不是只换颜色`
-- Target Viewport / UI Scale: `Phone 430×932 @1x; comfortable iOS scale; large titles; sparse grouped cells`
 - First-glance Signature: `iOS Settings-like grouped list + search field + sheet overlay`
 - Background & Surface Language: `system light gray background with flat white grouped cells`
 - Component Scale: `comfortable iOS scale; large titles; sparse grouped cells`
@@ -288,8 +298,8 @@
 ---参数分隔符---
 
 ### APP软件 UI参数 006：平板双栏浅色风
+- Target Viewport / UI Scale: `Foldable/tablet 800×600 @115%; wide mobile scale; 44–58h controls`
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“iPad/Android tablet three-pane split with navigation rail and detail pane”，不是只换颜色`
-- Target Viewport / UI Scale: `Tablet 1366×1024 landscape; tablet scale; 46h controls; medium density split view`
 - First-glance Signature: `iPad/Android tablet three-pane split with navigation rail and detail pane`
 - Background & Surface Language: `wide light canvas with separated side rail`
 - Component Scale: `tablet scale; 46h controls; medium density split view`
@@ -308,7 +318,7 @@
 - Interaction Density: `中`
 - Control Style: `平板双栏、列表单元、详情卡片、浮层控件`
 - Avoid: `不要桌面窗口标题栏、不要Web后台、不要密集表格页`
-- Colors: bg `#F7F8FA`, surface `#FFFFFF`, text `#111827`, primary `#2563EB`, accent `#F59E0B`, border `#E5E7EB`
+- Colors: bg `#F7F8FA`, surface `#FFFFFF`, text `#111827`, primary `#0F766E`, accent `#F59E0B`, border `#E5E7EB`
 - Typography: sans; scale `13/15/20/30`; weights `400/500/600`; lineHeight `1.45–1.58`
 - Shape: radius `16/20/24`; controls `46h`
 - Stroke: 1px subtle
