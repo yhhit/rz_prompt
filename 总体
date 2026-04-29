@@ -25,6 +25,8 @@
 - Motion: `200ms`; soft fade
 - Texture: none
 
+---参数分隔符---
+
 ### 办公软件 UI参数 002：macOS 风日历列表分栏风
 - Software Type: `办公软件`
 - Subtype: `日历列表型`
@@ -51,6 +53,8 @@
 - Icon: outline `1.25px`; soft rounded
 - Motion: `210ms`; gentle fade+slide
 - Texture: 1% noise optional
+
+---参数分隔符---
 
 ### 办公软件 UI参数 003：Windows 11 轻量表格风
 - Software Type: `办公软件`
@@ -79,6 +83,8 @@
 - Motion: `170ms`; fade only
 - Texture: none
 
+---参数分隔符---
+
 ### 办公软件 UI参数 004：三栏消息阅读风
 - Software Type: `办公软件`
 - Subtype: `三栏消息型`
@@ -105,6 +111,8 @@
 - Icon: outline `1.25px`; rounded friendly
 - Motion: `180ms`; soft fade
 - Texture: none
+
+---参数分隔符---
 
 ### 办公软件 UI参数 005：三栏目录编辑风
 - Software Type: `办公软件`
@@ -133,6 +141,8 @@
 - Motion: `200ms`; soft fade+2px slide
 - Texture: none
 
+---参数分隔符---
+
 ### 办公软件 UI参数 006：分组卡片面板风
 - Software Type: `办公软件`
 - Subtype: `分组卡片面板型`
@@ -159,6 +169,8 @@
 - Icon: outline `1.5px`; rounded
 - Motion: `190ms`; fade only
 - Texture: none
+
+---参数分隔符---
 
 ### 办公软件 UI参数 007：概览设置分栏风
 - Software Type: `办公软件`
@@ -187,6 +199,8 @@
 - Motion: `200ms`; soft fade+slide
 - Texture: none
 
+---参数分隔符---
+
 ### 办公软件 UI参数 008：Windows Ribbon 富文本风
 - Rendering Paradigm: `Native desktop application`
 - UI Framework: `WPF / WinForms / Office Ribbon`
@@ -212,6 +226,8 @@
 - Icon: small Office-style toolbar icons
 - Motion: none / native state
 - Texture: none
+
+---参数分隔符---
 
 ### 办公软件 UI参数 009：macOS 融合工具栏风
 - Rendering Paradigm: `Native desktop application`
@@ -239,6 +255,8 @@
 - Motion: `180ms`; native subtle transitions
 - Texture: translucent sidebar only
 
+---参数分隔符---
+
 ### 办公软件 UI参数 010：Electron 桌面 Web 壳风
 - Rendering Paradigm: `Desktop web application`
 - UI Framework: `Electron-like shell / React document shell`
@@ -264,6 +282,8 @@
 - Icon: outline `1.5px`; simple
 - Motion: `160ms`; fade only
 - Texture: none
+
+---参数分隔符---
 
 ### 嵌入式软件 UI参数 001：连接配置浅灰工程风
 - Software Type: `嵌入式软件`
@@ -291,6 +311,8 @@
 - Motion: `120ms`; direct feedback
 - Texture: none
 
+---参数分隔符---
+
 ### 嵌入式软件 UI参数 002：进度流程面板风
 - Software Type: `嵌入式软件`
 - Subtype: `进度流程型`
@@ -316,6 +338,8 @@
 - Icon: outline `1.5px`; practical device icons
 - Motion: `150ms`; progress/status transition only
 - Texture: none
+
+---参数分隔符---
 
 ### 嵌入式软件 UI参数 003：列表发现连接风
 - Software Type: `嵌入式软件`
@@ -343,6 +367,8 @@
 - Motion: `130ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 嵌入式软件 UI参数 004：参数表格高密度风
 - Software Type: `嵌入式软件`
 - Subtype: `参数表格配置`
@@ -368,6 +394,8 @@
 - Icon: outline `1.75px`; sharp
 - Motion: `120ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 嵌入式软件 UI参数 005：双栏操作日志风
 - Software Type: `嵌入式软件`
@@ -395,6 +423,8 @@
 - Motion: `120ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 嵌入式软件 UI参数 006：深灰日志控制台风
 - Software Type: `嵌入式软件`
 - Subtype: `日志 / 控制台工具`
@@ -420,6 +450,8 @@
 - Icon: outline `1.5px`
 - Motion: `130ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 嵌入式软件 UI参数 007：步骤检测面板风
 - Software Type: `嵌入式软件`
@@ -447,6 +479,8 @@
 - Motion: `130ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 嵌入式软件 UI参数 008：触控终端轻量面板风
 - Software Type: `嵌入式软件`
 - Subtype: `触控面板 / 轻量面板`
@@ -472,6 +506,8 @@
 - Icon: outline `1.75px`; touch-friendly pictograms
 - Motion: `120ms`; instant panel switch
 - Texture: none
+
+---参数分隔符---
 
 ### 嵌入式软件 UI参数 009：传统硬边框工具风
 - Rendering Paradigm: `Engineering desktop utility`
@@ -499,6 +535,8 @@
 - Motion: `100ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 嵌入式软件 UI参数 010：黑灰终端混合风
 - Rendering Paradigm: `Engineering desktop utility`
 - UI Framework: `Qt Widgets / WPF`
@@ -524,6 +562,8 @@
 - Icon: outline `1.5px`; technical
 - Motion: `100ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 嵌入式软件 UI参数 011：触控终端轻量面板风
 - Rendering Paradigm: `Device terminal / touch panel`
@@ -551,6 +591,8 @@
 - Motion: none
 - Texture: none
 
+---参数分隔符---
+
 ### 工业控制系统 UI参数 001：参数配置浅灰工程风
 - Software Type: `工业控制系统`
 - Subtype: `参数配置型`
@@ -576,6 +618,8 @@
 - Icon: outline `1.75px`; compact engineering symbols
 - Motion: `120ms`; immediate state change
 - Texture: none
+
+---参数分隔符---
 
 ### 工业控制系统 UI参数 002：参数配置冷灰橙点缀风
 - Software Type: `工业控制系统`
@@ -603,6 +647,8 @@
 - Motion: `120ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 工业控制系统 UI参数 003：组件架组态深灰组件风
 - Software Type: `工业控制系统`
 - Subtype: `组件架组态型`
@@ -628,6 +674,8 @@
 - Icon: outline `1.5px`; hardware-style icons
 - Motion: `130ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 工业控制系统 UI参数 004：点表映射高密度风
 - Software Type: `工业控制系统`
@@ -655,6 +703,8 @@
 - Motion: `120ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 工业控制系统 UI参数 005：现场操作灰底按钮风
 - Software Type: `工业控制系统`
 - Subtype: `现场操作屏型`
@@ -680,6 +730,8 @@
 - Icon: filled/outline hybrid `1.75px`; high-recognition pictograms
 - Motion: `100ms`; press state only
 - Texture: none
+
+---参数分隔符---
 
 ### 工业控制系统 UI参数 006：深灰操作面板风
 - Software Type: `工业控制系统`
@@ -707,6 +759,8 @@
 - Motion: `100ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 工业控制系统 UI参数 007：参数设定浅灰页签风
 - Software Type: `工业控制系统`
 - Subtype: `参数设定型`
@@ -732,6 +786,8 @@
 - Icon: outline `1.5px`
 - Motion: `110ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 工业控制系统 UI参数 008：深蓝灰监视面板风
 - Software Type: `工业控制系统`
@@ -759,6 +815,8 @@
 - Motion: `150ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 工业控制系统 UI参数 009：双栏操作维护风
 - Software Type: `工业控制系统`
 - Subtype: `双栏操作维护型`
@@ -784,6 +842,8 @@
 - Icon: outline `1.5px`
 - Motion: `120ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 工业控制系统 UI参数 010：联机监测控制风
 - Software Type: `工业控制系统`
@@ -811,6 +871,8 @@
 - Motion: `130ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 工业控制系统 UI参数 011：传统硬边框上位机风
 - Rendering Paradigm: `engineering desktop application`
 - UI Framework: `MFC / WPF / Qt Industrial`
@@ -836,6 +898,8 @@
 - Icon: small angular outline `1.75px`
 - Motion: `100ms`; immediate
 - Texture: none
+
+---参数分隔符---
 
 ### 工业控制系统 UI参数 012：触控大按钮面板风
 - Rendering Paradigm: `Industrial HMI / SCADA runtime`
@@ -863,6 +927,8 @@
 - Motion: none
 - Texture: subtle panel grain
 
+---参数分隔符---
+
 ### 工业控制系统 UI参数 013：深色控制台趋势风
 - Rendering Paradigm: `SCADA runtime / monitoring console`
 - UI Framework: `SCADA Runtime / Qt Industrial`
@@ -888,6 +954,8 @@
 - Icon: outline `1.5px`; technical
 - Motion: `120ms`; state only
 - Texture: none
+
+---参数分隔符---
 
 ### 工具软件 UI参数 001：Windows 轻量配置工具风
 - Software Type: `工具软件`
@@ -915,6 +983,8 @@
 - Motion: `130ms`; quick state feedback
 - Texture: none
 
+---参数分隔符---
+
 ### 工具软件 UI参数 002：现代 Web 单页工具风
 - Software Type: `工具软件`
 - Subtype: `单页 Web 工具`
@@ -940,6 +1010,8 @@
 - Icon: outline `1.5px`; rounded utility icons
 - Motion: `160ms`; fade+2px slide
 - Texture: none
+
+---参数分隔符---
 
 ### 工具软件 UI参数 003：批处理队列工具风
 - Software Type: `工具软件`
@@ -967,6 +1039,8 @@
 - Motion: `130ms`; quick fade
 - Texture: none
 
+---参数分隔符---
+
 ### 工具软件 UI参数 004：文件转换轻量风
 - Software Type: `工具软件`
 - Subtype: `文件 / 数据转换工具`
@@ -992,6 +1066,8 @@
 - Icon: outline `1.5px`; rounded
 - Motion: `160ms`; fade+2px slide
 - Texture: none
+
+---参数分隔符---
 
 ### 工具软件 UI参数 005：日志队列处理工程风
 - Software Type: `工具软件`
@@ -1019,6 +1095,8 @@
 - Motion: `120ms`; direct feedback
 - Texture: none
 
+---参数分隔符---
+
 ### 工具软件 UI参数 006：检查修复工具线框风
 - Software Type: `工具软件`
 - Subtype: `小型检查 / 修复工具`
@@ -1044,6 +1122,8 @@
 - Icon: outline `2px`; geometric
 - Motion: `120ms`; border/color transition only
 - Texture: none
+
+---参数分隔符---
 
 ### 工具软件 UI参数 007：冷白青灰桌面工具风
 - Software Type: `工具软件`
@@ -1071,6 +1151,8 @@
 - Motion: `140ms`; quick feedback
 - Texture: none
 
+---参数分隔符---
+
 ### 工具软件 UI参数 008：双栏输入输出风
 - Rendering Paradigm: `Desktop utility / Web single-page utility`
 - UI Framework: `Qt / Electron / React`
@@ -1096,6 +1178,8 @@
 - Icon: outline `1.5px`
 - Motion: `140ms`; fade only
 - Texture: none
+
+---参数分隔符---
 
 ### 工具软件 UI参数 009：黑灰终端混合风
 - Rendering Paradigm: `Desktop utility`
@@ -1123,6 +1207,8 @@
 - Motion: `100ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 工具软件 UI参数 010：浮动小面板风
 - Rendering Paradigm: `Desktop utility / compact web tool`
 - UI Framework: `Electron / Tauri / React`
@@ -1148,6 +1234,8 @@
 - Icon: outline `1.5px`; rounded
 - Motion: `170ms`; popover fade+scale
 - Texture: translucent panel
+
+---参数分隔符---
 
 ### 建模软件 UI参数 001：Windows 专业 CAD 多面板风
 - Software Type: `建模软件`
@@ -1178,6 +1266,8 @@
 - Motion: `120ms`; state switch only
 - Texture: none
 
+---参数分隔符---
+
 ### 建模软件 UI参数 002：macOS 深色三维视口风
 - Software Type: `建模软件`
 - Subtype: `三维建模`
@@ -1206,6 +1296,8 @@
 - Icon: outline `1.25px`; thin precise
 - Motion: `180ms`; smooth panel fade
 - Texture: 1% noise + blur(16px)
+
+---参数分隔符---
 
 ### 建模软件 UI参数 003：Linux 工程参数化建模风
 - Software Type: `建模软件`
@@ -1236,6 +1328,8 @@
 - Motion: `130ms`; direct feedback
 - Texture: none
 
+---参数分隔符---
+
 ### 建模软件 UI参数 004：深灰三维视口建模风
 - Software Type: `建模软件`
 - Subtype: `三维建模`
@@ -1264,6 +1358,8 @@
 - Icon: outline `1.5px`; crisp tool icons
 - Motion: `150ms`; state transition only
 - Texture: none
+
+---参数分隔符---
 
 ### 建模软件 UI参数 005：装配结构浅灰面板风
 - Software Type: `建模软件`
@@ -1294,6 +1390,8 @@
 - Motion: `140ms`; state fade only
 - Texture: none
 
+---参数分隔符---
+
 ### 建模软件 UI参数 006：仿真前处理网格视图风
 - Software Type: `建模软件`
 - Subtype: `仿真前处理建模`
@@ -1322,6 +1420,8 @@
 - Icon: outline `1.75px`; engineering
 - Motion: `120ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 建模软件 UI参数 007：资源浏览预览风
 - Software Type: `建模软件`
@@ -1352,6 +1452,8 @@
 - Motion: `200ms`; fade+3px slide
 - Texture: none
 
+---参数分隔符---
+
 ### 建模软件 UI参数 008：线框精密 CAD 风
 - Software Type: `建模软件`
 - Subtype: `CAD二维制图`
@@ -1381,6 +1483,8 @@
 - Motion: `120ms`; border/color switch only
 - Texture: none
 
+---参数分隔符---
+
 ### 建模软件 UI参数 009：线框网格视口风
 - Rendering Paradigm: `Professional modeling desktop application`
 - UI Framework: `Qt / WPF / OpenGL viewport shell`
@@ -1406,6 +1510,8 @@
 - Icon: thin technical outline
 - Motion: none / viewport native
 - Texture: grid only
+
+---参数分隔符---
 
 ### 建模软件 UI参数 010：浅色工程网格风
 - Rendering Paradigm: `Professional modeling desktop application`
@@ -1433,6 +1539,8 @@
 - Motion: none
 - Texture: viewport grid only
 
+---参数分隔符---
+
 ### 建模软件 UI参数 011：双视口分屏风
 - Rendering Paradigm: `Professional modeling desktop application`
 - UI Framework: `Qt / OpenGL / WPF`
@@ -1458,6 +1566,8 @@
 - Icon: thin technical outline
 - Motion: none / viewport native
 - Texture: grid and axis overlays
+
+---参数分隔符---
 
 ### 数据分析系统 UI参数 001：现代 BI 指标看板风
 - Software Type: `数据分析系统`
@@ -1485,6 +1595,8 @@
 - Motion: `180ms`; fade+2px slide
 - Texture: none
 
+---参数分隔符---
+
 ### 数据分析系统 UI参数 002：桌面专业分析工具风
 - Software Type: `数据分析系统`
 - Subtype: `数据探索型`
@@ -1510,6 +1622,8 @@
 - Icon: outline `1.5px`; compact analytical icons
 - Motion: `150ms`; state transition only
 - Texture: none
+
+---参数分隔符---
 
 ### 数据分析系统 UI参数 003：深色专业趋势分析风
 - Software Type: `数据分析系统`
@@ -1537,6 +1651,8 @@
 - Motion: `180ms`; subtle fade
 - Texture: none
 
+---参数分隔符---
+
 ### 数据分析系统 UI参数 004：报表透视冷灰风
 - Software Type: `数据分析系统`
 - Subtype: `报表透视`
@@ -1562,6 +1678,8 @@
 - Icon: outline `1.5px`
 - Motion: `140ms`; state fade only
 - Texture: none
+
+---参数分隔符---
 
 ### 数据分析系统 UI参数 005：运营分析浅色趋势风
 - Software Type: `数据分析系统`
@@ -1589,6 +1707,8 @@
 - Motion: `180ms`; fade+3px slide
 - Texture: none
 
+---参数分隔符---
+
 ### 数据分析系统 UI参数 006：深海图表探索风
 - Software Type: `数据分析系统`
 - Subtype: `深色专业分析面板`
@@ -1614,6 +1734,8 @@
 - Icon: outline `1.25px`; geometric
 - Motion: `180ms` ease-out; fade+2px slide
 - Texture: 1% noise optional
+
+---参数分隔符---
 
 ### 数据分析系统 UI参数 007：图文阅读分析风
 - Software Type: `数据分析系统`
@@ -1641,6 +1763,8 @@
 - Motion: `180ms`; soft fade
 - Texture: none
 
+---参数分隔符---
+
 ### 数据分析系统 UI参数 008：桌面多图表分析风
 - Software Type: `数据分析系统`
 - Subtype: `桌面专业分析工具`
@@ -1666,6 +1790,8 @@
 - Icon: outline `1.5px`; analytical tool icons
 - Motion: `130ms`; state switch only
 - Texture: none
+
+---参数分隔符---
 
 ### 数据分析系统 UI参数 009：高密度透视表风
 - Rendering Paradigm: `Web analysis platform / desktop analytics workspace`
@@ -1693,6 +1819,8 @@
 - Motion: `120ms`; state fade
 - Texture: none
 
+---参数分隔符---
+
 ### 数据分析系统 UI参数 010：图文阅读分析风
 - Rendering Paradigm: `Web analysis report / document-style analytics`
 - UI Framework: `React/Vue + charting library`
@@ -1718,6 +1846,8 @@
 - Icon: outline `1.5px`; quiet
 - Motion: `180ms`; fade+2px slide
 - Texture: subtle paper tint
+
+---参数分隔符---
 
 ### 数据分析系统 UI参数 011：黑灰大图表风
 - Rendering Paradigm: `Web analysis platform`
@@ -1745,6 +1875,8 @@
 - Motion: `160ms`; chart transition subtle
 - Texture: none
 
+---参数分隔符---
+
 ### 监控软件 UI参数 001：值守终端深色监看风
 - Software Type: `监控软件`
 - Subtype: `值守终端`
@@ -1770,6 +1902,8 @@
 - Icon: outline `1.5px`; status-specific symbols
 - Motion: `150ms`; no flashing animation
 - Texture: none
+
+---参数分隔符---
 
 ### 监控软件 UI参数 002：浅色状态监控风
 - Software Type: `监控软件`
@@ -1797,6 +1931,8 @@
 - Motion: `140ms`; state fade only
 - Texture: none
 
+---参数分隔符---
+
 ### 监控软件 UI参数 003：深海趋势值守风
 - Software Type: `监控软件`
 - Subtype: `趋势警示`
@@ -1822,6 +1958,8 @@
 - Icon: outline `1.5px`; restrained tech symbols
 - Motion: `170ms`; subtle state update
 - Texture: 1% noise optional
+
+---参数分隔符---
 
 ### 监控软件 UI参数 004：状态总览深灰风
 - Software Type: `监控软件`
@@ -1849,6 +1987,8 @@
 - Motion: `150ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 监控软件 UI参数 005：警示处理深色队列风
 - Software Type: `监控软件`
 - Subtype: `警示处理`
@@ -1874,6 +2014,8 @@
 - Icon: outline `1.5px`
 - Motion: `150ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 监控软件 UI参数 006：区域监控总览浅灰风
 - Software Type: `监控软件`
@@ -1901,6 +2043,8 @@
 - Motion: `140ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 监控软件 UI参数 007：总览深蓝工程风
 - Software Type: `监控软件`
 - Subtype: `状态监视`
@@ -1926,6 +2070,8 @@
 - Icon: outline `1.5px`
 - Motion: `150ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 监控软件 UI参数 008：浅色警示确认风
 - Software Type: `监控软件`
@@ -1953,6 +2099,8 @@
 - Motion: `140ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 监控软件 UI参数 009：黑灰多屏监视风
 - Rendering Paradigm: `Monitoring terminal / operations console`
 - UI Framework: `Qt / WPF / controlled Web console`
@@ -1978,6 +2126,8 @@
 - Icon: outline `1.5px`
 - Motion: `120ms`
 - Texture: none
+
+---参数分隔符---
 
 ### 监控软件 UI参数 010：米灰状态表格风
 - Rendering Paradigm: `Monitoring terminal / operations console`
@@ -2005,6 +2155,8 @@
 - Motion: `120ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 监控软件 UI参数 011：蓝灰趋势网格风
 - Rendering Paradigm: `Monitoring terminal / operations console`
 - UI Framework: `SCADA terminal / Qt / WPF`
@@ -2031,6 +2183,8 @@
 - Motion: `120ms`
 - Texture: none
 
+---参数分隔符---
+
 ### 设计软件 UI参数 001：macOS 专业画布设计风
 - Subtype: `专业设计工具 / 画布中心 / 图层与属性面板`
 - Rendering Paradigm: `Professional creative application`
@@ -2053,6 +2207,8 @@
 - Icon: outline `1.25px`; thin precise creative icons
 - Motion: `190ms`; smooth panel fade
 - Texture: 1% noise + blur(16px)
+
+---参数分隔符---
 
 ### 设计软件 UI参数 002：Windows 深灰画布工作区风
 - Subtype: `画布排版 / 桌面工作区`
@@ -2077,6 +2233,8 @@
 - Motion: `150ms`; state transition only
 - Texture: none
 
+---参数分隔符---
+
 ### 设计软件 UI参数 003：浅色资源浏览画布风
 - Subtype: `资源浏览 / 画布预览 / 素材面板`
 - Rendering Paradigm: `Professional creative application`
@@ -2099,6 +2257,8 @@
 - Icon: outline `1.25px`; refined rounded
 - Motion: `200ms`; fade+3px slide
 - Texture: none
+
+---参数分隔符---
 
 ### 设计软件 UI参数 004：克制玻璃浅色风
 - Rendering Paradigm: `Professional creative application`
@@ -2126,6 +2286,8 @@
 - Motion: `160ms`; panel fade+slide
 - Texture: blur + subtle noise
 
+---参数分隔符---
+
 ### 设计软件 UI参数 005：线框极简画布风
 - Rendering Paradigm: `Professional creative application`
 - UI Framework: `Qt / Electron / SwiftUI`
@@ -2151,6 +2313,8 @@
 - Icon: geometric outline `2px`
 - Motion: `120ms`; color/border transition
 - Texture: none
+
+---参数分隔符---
 
 ### 设计软件 UI参数 006：深灰黄绿面板风
 - Rendering Paradigm: `Professional creative application`

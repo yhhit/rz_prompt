@@ -157,6 +157,8 @@
 - Motion: `220ms`; soft fade+6px slide
 - Texture: none
 
+---参数分隔符---
+
 ### APP软件 UI参数 002：Android Material 稳定组件风
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“Android Material top app bar + tonal containers + chips + bottom navigation”，不是只换颜色`
 - Target Viewport / UI Scale: `Phone 412×915 @1x; medium mobile scale; 44–48h Material controls; compact vertical feed`
@@ -184,6 +186,8 @@
 - Icon: outline `1.5px`; Material-like rounded
 - Motion: `200ms`; standard ease
 - Texture: none
+
+---参数分隔符---
 
 ### APP软件 UI参数 003：移动端深色专业应用风
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“black/navy mobile dark mode + glowing status chips + bottom action bar”，不是只换颜色`
@@ -214,6 +218,8 @@
 - Texture: none
 
 ---
+
+---参数分隔符---
 
 ### APP软件 UI参数 004：Android Material 容器风
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“single-column Material cards + prominent FAB + rounded bottom sheet”，不是只换颜色`
@@ -246,6 +252,8 @@
 - Motion: `220ms`; soft material transition
 - Texture: none
 
+---参数分隔符---
+
 ### APP软件 UI参数 005：iOS 分组列表风
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“iOS Settings-like grouped list + search field + sheet overlay”，不是只换颜色`
 - Target Viewport / UI Scale: `Phone 430×932 @1x; comfortable iOS scale; large titles; sparse grouped cells`
@@ -276,6 +284,8 @@
 - Icon: SF Symbols-like outline
 - Motion: `200ms`; native slide
 - Texture: none
+
+---参数分隔符---
 
 ### APP软件 UI参数 006：平板双栏浅色风
 - Visual Differentiation: `与同类其他套相比，第一眼必须呈现“iPad/Android tablet three-pane split with navigation rail and detail pane”，不是只换颜色`
